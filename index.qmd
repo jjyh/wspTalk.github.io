@@ -1,0 +1,54 @@
+---
+title: "Wastewater Surveillance Proficiency"
+author: "interlabs.ca & labstats.ca"
+format: dashboard
+---
+# Wastewater surveillance
+
+Molecular monitoring of wastewater to help Public Health understand the presence of disease in a community and inform intervention strategies  
++ regardless of clinical testing strategies, access to testing, and the sample size of symptomatic individuals who have taken tests
+![](img/WSI.png)
+
+
+
+# Current state
+- methods (and labs) remain disparate 
+- QAQC measures (?)
+![](img/interlab_method_tbl.png)
+
+
+# Surveillance proficiency 
+
+*Quis custodiet ipsos custodes?*
+
+![](img/ourServices.png)
+
+# Assess Performance
+## Row {.tabset}
+### Interlab Reports
+![](img/interlabProduct.png)
+
+
+### under the hood: our core code base
+![](img/code_structure_existing.png)
+
+*so with the interlabs the past four years, we're at the stage where none of the methods are wild anymore (though sitll good to keep an eye on mutation effects) - so we can evolve to a high level task (which is our mandate for PHAC)*
+
+# Assess Quality
+## Row {.tabset}
+### Proficiency Test Reports
+![](img/steps.gif)
+![](img/ptProduct.png)
+
+
+### under the hood: transforming raw input
+![](img/rawInput.png)
+  
+*R <- anywhere from 10-20 labs.  each with their own established spreadsheets filling the unified interlab submittal.  granularly for statistical tests - three replicates of three replicates of however many targets (we provide for 4 different SARS genes, flu A, flu B, the 3 RSVs) which are different for each lab*
+
+
+# Future
+- develop the visibility for quality control
+- client/lab-side quality check for PT
+- code refactoring & documentation
+![](img/versionControl.png)
