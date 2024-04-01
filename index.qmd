@@ -51,4 +51,6 @@ Molecular monitoring of wastewater to help Public Health understand the presence
 - develop the visibility for quality control
 - client/lab-side quality check for PT
 - code refactoring & documentation
+  
+Contact: jho@ocwa.com || [@github jjyh](https://github.com/jjyh)   
 ![](img/versionControl.png)
