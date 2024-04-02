@@ -96,7 +96,7 @@ ul.task-list li input[type="checkbox"] {
         <div class="navbar-author">interlabs.ca &amp; labstats.ca</div>
       </div>
     </div>
-<div id="dashboard-collapse" class="navbar-collapse collapse"><ul class="navbar-nav navbar-nav-scroll me-auto" role="tablist"><li class="nav-item" role="presentation"><a id="tab-wastewater-surveillance" class="nav-link active" data-bs-toggle="tab" role="tab" data-bs-target="#wastewater-surveillance" data-scrolling="false" href="#wastewater-surveillance" aria-controls="wastewater-surveillance" aria-selected="true"><span class="nav-link-text">Wastewater surveillance</span></a></li><li class="nav-item" role="presentation"><a id="tab-current-state" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#current-state" data-scrolling="false" href="#current-state" aria-controls="current-state" aria-selected="false"><span class="nav-link-text">Current state</span></a></li><li class="nav-item" role="presentation"><a id="tab-surveillance-proficiency" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#surveillance-proficiency" data-scrolling="false" href="#surveillance-proficiency" aria-controls="surveillance-proficiency" aria-selected="false"><span class="nav-link-text">Surveillance proficiency</span></a></li><li class="nav-item" role="presentation"><a id="tab-assess-performance" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#assess-performance" data-scrolling="false" href="#assess-performance" aria-controls="assess-performance" aria-selected="false"><span class="nav-link-text">Assess Performance</span></a></li><li class="nav-item" role="presentation"><a id="tab-assess-quality" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#assess-quality" data-scrolling="false" href="#assess-quality" aria-controls="assess-quality" aria-selected="false"><span class="nav-link-text">Assess Quality</span></a></li><li class="nav-item" role="presentation"><a id="tab-future" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#future" data-scrolling="false" href="#future" aria-controls="future" aria-selected="false"><span class="nav-link-text">Future</span></a></li></ul></div></div>
+<div id="dashboard-collapse" class="navbar-collapse collapse"><ul class="navbar-nav navbar-nav-scroll me-auto" role="tablist"><li class="nav-item" role="presentation"><a id="tab-wastewater-surveillance" class="nav-link active" data-bs-toggle="tab" role="tab" data-bs-target="#wastewater-surveillance" data-scrolling="false" href="#wastewater-surveillance" aria-controls="wastewater-surveillance" aria-selected="true"><span class="nav-link-text">Wastewater surveillance</span></a></li><li class="nav-item" role="presentation"><a id="tab-current-state" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#current-state" data-scrolling="false" href="#current-state" aria-controls="current-state" aria-selected="false"><span class="nav-link-text">Current state</span></a></li><li class="nav-item" role="presentation"><a id="tab-surveillance-proficiency" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#surveillance-proficiency" data-scrolling="false" href="#surveillance-proficiency" aria-controls="surveillance-proficiency" aria-selected="false"><span class="nav-link-text">Surveillance proficiency</span></a></li><li class="nav-item" role="presentation"><a id="tab-assess-performance" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#assess-performance" data-scrolling="false" href="#assess-performance" aria-controls="assess-performance" aria-selected="false"><span class="nav-link-text">Assess Performance</span></a></li><li class="nav-item" role="presentation"><a id="tab-assess-quality" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#assess-quality" data-scrolling="false" href="#assess-quality" aria-controls="assess-quality" aria-selected="false"><span class="nav-link-text">Assess Quality</span></a></li><li class="nav-item" role="presentation"><a id="tab-ptinterlab" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#ptinterlab" data-scrolling="false" href="#ptinterlab" aria-controls="ptinterlab" aria-selected="false"><span class="nav-link-text">PT/Interlab</span></a></li><li class="nav-item" role="presentation"><a id="tab-future" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#future" data-scrolling="false" href="#future" aria-controls="future" aria-selected="false"><span class="nav-link-text">Future</span></a></li></ul></div></div>
 </nav>
 </header>
 <div id="quarto-search-results"></div>
@@ -244,16 +244,80 @@ grid-auto-rows: minmax(0, 1fr);">
 </bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
 </div>
 </div>
+<div id="ptinterlab" class="dashboard-page tab-pane grid-skip html-fill-item html-fill-container" data-orientation="rows" aria-labelledby="tab-ptinterlab">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, max-content); grid-auto-columns: minmax(0, 1fr);">
+<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container">
+<table class="table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 48%">
+<col style="width: 30%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Interlab</th>
+<th>Proficiency Test</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Principle</td>
+<td>Methods comparison</td>
+<td>Quality management</td>
+</tr>
+<tr class="even">
+<td>Performance Threshold</td>
+<td>z score&gt;3</td>
+<td>z score&gt;3</td>
+</tr>
+<tr class="odd">
+<td>QAQC Threshold</td>
+<td>Terms of Reference check-list</td>
+<td>Terms of Reference check-list</td>
+</tr>
+<tr class="even">
+<td>Participants</td>
+<td>Ontario labs (13)</td>
+<td>non-Ontario, U.S. labs (&amp; Ontario opt-in’s)</td>
+</tr>
+<tr class="odd">
+<td>Consulting service (diagnostics)</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+<tr class="even">
+<td>Deliverables</td>
+<td>Report with performance, QAQC review, debrief, conformance report to Ministry</td>
+<td>Report with performance, QAQC review, h-k plots</td>
+</tr>
+<tr class="odd">
+<td>Eligible for certification</td>
+<td>No</td>
+<td>Yes, e.g.&nbsp;CALA</td>
+</tr>
+</tbody>
+</table>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div>
+</div>
 <div id="future" class="dashboard-page tab-pane grid-skip html-fill-item html-fill-container" data-orientation="rows" aria-labelledby="tab-future">
 <div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, max-content); grid-auto-columns: minmax(0, 1fr);">
 <div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
 <div class="card-body html-fill-item html-fill-container">
 <ul>
 <li>develop the visibility for quality control</li>
-<li>client/lab-side quality check for PT</li>
-<li>code refactoring &amp; documentation</li>
+<li>client/lab-side quality check for PT (web dev….)</li>
+<li>code refactoring &amp; continue documentation</li>
 </ul>
-<p>Contact: jho@ocwa.com || <a href="https://github.com/jjyh"><span class="citation" data-cites="github">@github</span> jjyh</a><br>
+<p>Contact: jho@ocwa.com || <a href="https://github.com/jjyh">@githubjjyh</a><br>
 <img src="img/versionControl.png" class="img-fluid"></p>
 </div>
 <bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
